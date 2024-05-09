@@ -1,0 +1,19 @@
+.container
+    display: grid
+    align-content: center
+    width: 320px
+    height: 100vh
+    margin: auto
+    div
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        text-align: center
+        row-gap: 15px
+    & h1
+        flex: 1 1 100%
+    & a
+        text-decoration: none
+        font-size: 1.25rem
+        &::first-letter
+            text-transform: uppercase

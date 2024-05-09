@@ -1,0 +1,23 @@
+.form_container
+    display: grid
+    align-content: center
+    max-width: 320px
+    height: 100vh
+    margin: auto
+    .form_body
+        display: flex
+        flex-wrap: wrap
+        row-gap: 10px
+        width: 100%
+        & input
+            width: 100%
+            padding: 0.75rem
+            font-size: 1rem
+            border-radius: 5px
+            border: 1px solid
+            outline: none
+            &[type="text"]:focus
+                box-shadow: 0 0 3px black
+            &.error
+                border-color: red
+
